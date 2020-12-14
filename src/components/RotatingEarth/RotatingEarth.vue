@@ -1,6 +1,6 @@
 <template>
   <div class="rotating-earth">
-    <mk-vue-echarts :options="options"/>
+    <vue-echarts :options="options"/>
   </div>
 </template>
 

@@ -2,9 +2,9 @@
   <div class="total-device">
     <div class="total-device-left">
       <div id="total-device-chart">
-        <mk-vue-echarts
+        <vue-echarts
             :options="options"
-        ></mk-vue-echarts>
+        ></vue-echarts>
       </div>
     </div>
     <div class="total-device-right">
@@ -15,7 +15,7 @@
         </div>
         <div class="total-device-right-right">
           <div class="age">
-            <mk-count-to
+            <count-to
               :startVal="startNum"
               :endVal="num"
               :duration="1000"
@@ -27,7 +27,7 @@
       <div class="average-data-wrapper">
         <div class="average-data" v-for="(item, index) in refData" :key="index">
           <div class="average-data-value">
-            <mk-count-to
+            <count-to
               :startVal="item.startValue"
               :endVal="item.value"
               :duration="1000"

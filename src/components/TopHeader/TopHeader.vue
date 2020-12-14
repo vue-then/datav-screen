@@ -1,12 +1,12 @@
 <template>
     <div class="top-header">
-      <mk-logo
+      <imooc-logo
         :width="120"
         :height="120"
         :stroke="'#ffffff'"
 
 
-      ></mk-logo>
+      ></imooc-logo>
       <div class="logo-text">
         <div class="cn-text">Mok88外卖业务数据大盘</div>
         <div class="en-text">Mok88 Delivery Overview of Business</div>

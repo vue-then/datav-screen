@@ -10,7 +10,7 @@
       </div>
     </div>
     <div id="hot-category-chart">
-      <mk-vue-echarts :options="options"/>
+      <vue-echarts :options="options"/>
     </div>
   </div>
 </template>

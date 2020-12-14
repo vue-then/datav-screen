@@ -1,6 +1,6 @@
 <template>
   <div style="width: 100%; height: 100%">
-    <mk-vue-echarts :options="options"></mk-vue-echarts>
+    <vue-echarts :options="options"></vue-echarts>
   </div>
 </template>
 

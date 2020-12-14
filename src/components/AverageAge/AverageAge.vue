@@ -7,7 +7,7 @@
       </div>
       <div class="average-age-right">
         <div class="age">
-          <mk-count-to
+          <count-to
             :start-val="startAge"
             :end-val="avgAge"
             :duration="1000"
@@ -18,15 +18,15 @@
       </div>
     </div>
     <div id="average-age-chart">
-      <mk-vue-echarts
+      <vue-echarts
         :options="options"
       >
-      </mk-vue-echarts>
+      </vue-echarts>
     </div>
     <div class="average-data-wrapper">
       <div class="average-data" v-for="(item, index) in data" :key="index">
         <div class="average-data-value">
-          <mk-count-to
+          <count-to
             :start-val="item.startValue"
             :end-val="item.value"
             :duration="1000"

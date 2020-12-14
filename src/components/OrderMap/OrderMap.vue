@@ -1,7 +1,7 @@
 <template>
   <div class="order-map">
     <div class="loading" v-if="loading">加载中</div>
-    <mk-vue-echarts :options="options" v-else></mk-vue-echarts>
+    <vue-echarts :options="options" v-else></vue-echarts>
   </div>
 </template>
 
@@ -422,7 +422,7 @@
                 geo: {
                   map: 'china',
                   zoom: 1.1,
-                  roam: false,
+                  roam: false,// 启动鼠标滚轮地图缩放
                   scaleLimit: {
                     min: 0.5,
                     max: 3

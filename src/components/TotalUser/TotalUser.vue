@@ -3,26 +3,26 @@
     <div class="title">Mok88用户总数</div>
     <div class="sub-title">User Total Count</div>
     <div class="total">
-      <mk-count-to :startVal="startVal" :endVal="todayUser" :duration="1000"></mk-count-to>
+      <count-to :startVal="startVal" :endVal="todayUser" :duration="1000"></count-to>
     </div>
     <div class="percent-text">
       <span class="percent-text-1">每日增长率:
-        <mk-count-to
+        <count-to
           :startVal="startPercent"
           :endVal="growthLastDay"
           :duration="1000"
           :decimals="2"
           suffix="%"
-        ></mk-count-to>
+        ></count-to>
         </span>
       <span class="percent-text-2">每月增长率:
-         <mk-count-to
+         <count-to
            :startVal="startPercent2"
            :endVal="growthLastMonth"
            :duration="1000"
            :decimals="2"
            suffix="%"
-         ></mk-count-to>
+         ></count-to>
         </span>
     </div>
     <div class="percent">

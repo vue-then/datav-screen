@@ -1,6 +1,6 @@
 <template>
   <div class="fight-earth">
-    <mk-vue-echarts :options="options"/>
+    <vue-echarts :options="options"/>
   </div>
 </template>
 

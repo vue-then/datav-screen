@@ -8,7 +8,7 @@
         <div class="title">男性用户人数</div>
         <div class="sub-title">Number of male users</div>
         <div class="age">
-          <mk-count-to
+          <count-to
             :startVal="startMale"
             :endVal="endMale"
             :duration="1000"
@@ -25,7 +25,7 @@
         <div class="title">女性用户人数</div>
         <div class="sub-title">Number of female users</div>
         <div class="age">
-          <mk-count-to
+          <count-to
             :startVal="startFemale"
             :endVal="endFemale"
             :duration="1000"

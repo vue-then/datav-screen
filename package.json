@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "datav-libs-vue3": "^1.0.0",
+    "datav-libs-dev": "^1.0.3",
     "echarts": "^4.9.0",
     "echarts-gl": "^1.1.1",
     "lodash": "^4.17.20",

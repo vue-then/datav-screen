@@ -1,7 +1,7 @@
 <template>
   <div class="schedule-view">
 
-    <mk-vue-echarts :options="options"/>
+    <vue-echarts :options="options"/>
     <div class="bg1 bg" />
     <div class="bg2 bg" />
   </div>

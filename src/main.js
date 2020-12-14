@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import datav from 'datav-libs-vue3'
+import datav from 'datav-libs-dev'
 
 
 createApp(App)

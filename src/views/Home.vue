@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <mk-loading v-if="loading">
+    <imooc-loading v-if="loading">
       <div class="loading-text">数据大屏加载中...</div>
-    </mk-loading>
-    <mk-container
+    </imooc-loading>
+    <imooc-container
       :options="{width: 3840, height: 2160}"
       v-else
     >
@@ -63,9 +63,9 @@
                 />
               </div>
               <div class="right-left3">
-                <mk-fly-box starColor="rgb(251,253,142)">
+                <imooc-fly-box starColor="rgb(251,253,142)">
                   <real-time-order :data="realTimeOrderData" />
-                </mk-fly-box>
+                </imooc-fly-box>
               </div>
               <div class="right-left4">
                 <schedule-view :data="scheduleViewData" />
@@ -82,7 +82,7 @@
           </div>
         </div>
       </div>
-    </mk-container>
+    </imooc-container>
   </div>
 </template>
 
@@ -150,7 +150,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    #mk-container {
+    #imooc-container {
       display: flex;
       flex-flow: column nowrap;
       justify-content: center;

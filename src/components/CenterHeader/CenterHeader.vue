@@ -8,15 +8,15 @@
       >
         <div class="center-header-left">
           <div class="bg">
-            <mk-icon :name="iconData[index]"
-                     :style="{color: 'white'}"></mk-icon>
+            <imooc-icon :name="iconData[index]"
+                     :style="{color: 'white'}"></imooc-icon>
           </div>
         </div>
         <div class="center-header-right">
           <div class="title">{{item.title}}</div>
           <div class="sub-title">{{item.subTitle}}</div>
           <div class="total">
-            <mk-count-to
+            <count-to
               :start-val="item.startVal"
               :end-val="item.endVal"
               :duration="1000"

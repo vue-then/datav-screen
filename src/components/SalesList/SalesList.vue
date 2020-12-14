@@ -1,6 +1,6 @@
 <template>
   <div class="sales-list">
-    <mk-base-scroll-list
+    <base-scroll-list
       :config="config"
     />
   </div>
@@ -90,7 +90,7 @@
       })
       const stop = watch(() => props.data, () => {
         update()
-        stop()
+        stop()// 手动停止监听:
       })
       return {
         config

@@ -1,6 +1,6 @@
 <template>
   <div style="width: 500px; height: 400px;">
-    <mk-base-scroll-list
+    <base-scroll-list
       :config="config"
     />
   </div>

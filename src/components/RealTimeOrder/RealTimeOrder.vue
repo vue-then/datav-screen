@@ -4,7 +4,7 @@
       <div class="title">实时订单趋势图</div>
       <div class="sub-title">Number Of Real-time Orders</div>
       <div class="total">
-        <mk-count-to
+        <count-to
           :start-val="startVal"
           :end-val="endVal"
           :duration="1000"
@@ -15,7 +15,7 @@
       <div class="tiny-title">周同比增长率</div>
       <div class="percent-text">
         <span class="percent-text-1">
-          <mk-count-to
+          <count-to
             :start-val="startPercent"
             :end-val="percent"
             :duration="1000"
@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="real-time-order-right">
-      <mk-vue-echarts :options="options" />
+      <vue-echarts :options="options" />
     </div>
   </div>
 </template>

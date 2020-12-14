@@ -5,7 +5,7 @@
       <div class="sub-title">Rider Growth rate</div>
     </div>
     <div id="total-rider-chart">
-      <mk-vue-echarts :options="options" />
+      <vue-echarts :options="options" />
     </div>
   </div>
 </template>
